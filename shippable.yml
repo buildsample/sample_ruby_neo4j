@@ -6,6 +6,7 @@ rvm:
 
 services:
   - neo4j
+
   
 script:
   - ruby sample.rb
