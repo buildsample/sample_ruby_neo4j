@@ -1,8 +1,9 @@
 language: ruby
 
 rvm:
-  - jruby-1.7.12
-  - jruby-1.7.16
+  #- jruby-1.7.12
+  #- jruby-1.7.16
+  - jruby-1.7.18
 
 services:
   - neo4j
