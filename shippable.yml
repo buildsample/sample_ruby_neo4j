@@ -10,6 +10,5 @@ services:
 
 #build_image: shippable/minv2:beta
 
-  
 script:
   - ruby sample.rb
