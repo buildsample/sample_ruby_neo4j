@@ -9,5 +9,5 @@ services:
   
 script:
   - ruby sample.rb
-#cache: true
-build_image: shippable/minv2:beta
+cache: true
+#build_image: shippable/minv2:beta
