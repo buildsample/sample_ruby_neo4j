@@ -1,5 +1,8 @@
 language: ruby
 
+env:
+ - secure: g14sEtFboS6TCqPRXZ/jOUU1WgeoNMxQRvJRWKN+Z9yNzcsg4nvf8zHm65qjyi6ThWzqI2bygxhwZcPxJbhoUfXazbVt1j0820uzHOoC/S9SqVXvOzwtmMQNjLArH7Z/rOmh50s4ugUG/6AVoRwzztADJzjRAC1jYFUidQihHbCIWzHDObOeh03BJvA0khk+xVgW8yqvSbdmOQdOWk8oDtbEO3GoVV8IGjhZqE66CGQ7BaFD/fX3umjeLSWOThQgp+w6R2197goypSGWRRORZ9P8OCZp0lUJIBqPCztXSYxsBNyLT1FheykJW9pTYWrkyW/Uqz3DbDYO2u36y70pMw== 
+
 rvm:
   - jruby-1.7.12
   - jruby-1.7.16
@@ -8,6 +11,8 @@ rvm:
 services:
   - neo4j
 
+before_script:
+  - echo $key1
 #build_image: shippable/minv2:beta
 
 script:
